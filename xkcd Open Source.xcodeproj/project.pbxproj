@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		270508EB1D72330B00D34A6A /* XKCDDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 270508EA1D72330B00D34A6A /* XKCDDeviceManager.m */; };
 		270B574B1B07F28700651787 /* AltView.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B574A1B07F28700651787 /* AltView.m */; };
-		270C3E831D9777BF003CF197 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270C3E821D9777BF003CF197 /* NotificationCenter.framework */; };
-		270C3E871D9777BF003CF197 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270C3E861D9777BF003CF197 /* TodayViewController.m */; };
-		270C3E8E1D9777BF003CF197 /* xkcdToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 270C3E811D9777BF003CF197 /* xkcdToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2714CCB81B05667400ADF009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2714CCB71B05667400ADF009 /* main.m */; };
 		2714CCBB1B05667400ADF009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2714CCBA1B05667400ADF009 /* AppDelegate.m */; };
 		2714CCBD1B05667400ADF009 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2714CCBC1B05667400ADF009 /* Images.xcassets */; };
@@ -34,26 +31,13 @@
 		27B984AE1B0FF19A00684AA1 /* DataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B984AD1B0FF19A00684AA1 /* DataManagerTests.m */; };
 		27B984B21B10152D00684AA1 /* StubManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B984B11B10152D00684AA1 /* StubManager.m */; };
 		27B984B41B10CB8B00684AA1 /* RequestManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B984B31B10CB8B00684AA1 /* RequestManagerTests.m */; };
-		27EC248F1D977B9000D29A4F /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 277316F91B056EAC00ED7978 /* DataManager.m */; };
-		27EC24901D977BA300D29A4F /* Comic.m in Sources */ = {isa = PBXBuildFile; fileRef = 277316F61B056A6000ED7978 /* Comic.m */; };
-		27EC24911D977BA600D29A4F /* XKCDDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 270508EA1D72330B00D34A6A /* XKCDDeviceManager.m */; };
-		27EC24921D977BA900D29A4F /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2773170F1B06DF9300ED7978 /* ThemeManager.m */; };
-		27EC24931D977BAE00D29A4F /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 277316F01B0567B300ED7978 /* RequestManager.m */; };
 		27EE4A601B07BDAA001454A3 /* ComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EE4A5F1B07BDAA001454A3 /* ComicViewController.m */; };
 		27F653681B154C5C00F3377D /* silent.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 27F653671B154C5C00F3377D /* silent.m4a */; };
 		A6964EB278DE5FAD53FAE64E /* libPods-xkcd Open Source.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6725348942BDED8113C3A0E6 /* libPods-xkcd Open Source.a */; };
 		B2E2C3BB8A0BF182D5B63AA7 /* libPods-xkcdOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E69F5E414C056D6417BAB6C /* libPods-xkcdOSTests.a */; };
-		CFBE9B0DFB023BE7F9947460 /* libPods-xkcdToday.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA14FE212EF9148483390BD6 /* libPods-xkcdToday.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		270C3E8C1D9777BF003CF197 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2714CCAA1B05667400ADF009 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 270C3E801D9777BF003CF197;
-			remoteInfo = xkcdToday;
-		};
 		27B984A41B0D602D00684AA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2714CCAA1B05667400ADF009 /* Project object */;
@@ -70,7 +54,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				270C3E8E1D9777BF003CF197 /* xkcdToday.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,7 +66,6 @@
 		270508EA1D72330B00D34A6A /* XKCDDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKCDDeviceManager.m; sourceTree = "<group>"; };
 		270B57491B07F28700651787 /* AltView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltView.h; sourceTree = "<group>"; };
 		270B574A1B07F28700651787 /* AltView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltView.m; sourceTree = "<group>"; };
-		270C3E811D9777BF003CF197 /* xkcdToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = xkcdToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		270C3E821D9777BF003CF197 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		270C3E851D9777BF003CF197 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		270C3E861D9777BF003CF197 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
@@ -146,15 +128,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		270C3E7E1D9777BF003CF197 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				270C3E831D9777BF003CF197 /* NotificationCenter.framework in Frameworks */,
-				CFBE9B0DFB023BE7F9947460 /* libPods-xkcdToday.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2714CCAF1B05667400ADF009 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,7 +193,6 @@
 			children = (
 				2714CCB21B05667400ADF009 /* xkcd Open Source.app */,
 				27B9849E1B0D602D00684AA1 /* xkcdOSTests.xctest */,
-				270C3E811D9777BF003CF197 /* xkcdToday.appex */,
 			);
 			path = Products;
 			sourceTree = "<group>";
@@ -508,24 +480,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		270C3E801D9777BF003CF197 /* xkcdToday */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 270C3E911D9777BF003CF197 /* Build configuration list for PBXNativeTarget "xkcdToday" */;
-			buildPhases = (
-				99CBA7E1BC4B8E48F8651160 /* [CP] Check Pods Manifest.lock */,
-				270C3E7D1D9777BF003CF197 /* Sources */,
-				270C3E7E1D9777BF003CF197 /* Frameworks */,
-				270C3E7F1D9777BF003CF197 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = xkcdToday;
-			productName = xkcdToday;
-			productReference = 270C3E811D9777BF003CF197 /* xkcdToday.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		2714CCB11B05667400ADF009 /* xkcd Open Source */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2714CCCF1B05667400ADF009 /* Build configuration list for PBXNativeTarget "xkcd Open Source" */;
@@ -539,7 +493,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				270C3E8D1D9777BF003CF197 /* PBXTargetDependency */,
 			);
 			name = "xkcd Open Source";
 			productName = xkcDump;
@@ -574,16 +527,6 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Mike Amaral";
 				TargetAttributes = {
-					270C3E801D9777BF003CF197 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = F252L9GUBW;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.Push = {
-								enabled = 0;
-							};
-						};
-					};
 					2714CCB11B05667400ADF009 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = F252L9GUBW;
@@ -626,19 +569,11 @@
 			targets = (
 				2714CCB11B05667400ADF009 /* xkcd Open Source */,
 				27B9849D1B0D602D00684AA1 /* xkcdOSTests */,
-				270C3E801D9777BF003CF197 /* xkcdToday */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		270C3E7F1D9777BF003CF197 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2714CCB01B05667400ADF009 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -662,24 +597,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		99CBA7E1BC4B8E48F8651160 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-xkcdToday-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9B1127FCAA58BA1BE5FE71F7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -719,19 +636,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		270C3E7D1D9777BF003CF197 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27EC24901D977BA300D29A4F /* Comic.m in Sources */,
-				270C3E871D9777BF003CF197 /* TodayViewController.m in Sources */,
-				27EC24921D977BA900D29A4F /* ThemeManager.m in Sources */,
-				27EC24931D977BAE00D29A4F /* RequestManager.m in Sources */,
-				27EC248F1D977B9000D29A4F /* DataManager.m in Sources */,
-				27EC24911D977BA600D29A4F /* XKCDDeviceManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2714CCAE1B05667400ADF009 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -769,11 +673,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		270C3E8D1D9777BF003CF197 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 270C3E801D9777BF003CF197 /* xkcdToday */;
-			targetProxy = 270C3E8C1D9777BF003CF197 /* PBXContainerItemProxy */;
-		};
 		27B984A51B0D602D00684AA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2714CCB11B05667400ADF009 /* xkcd Open Source */;
@@ -797,51 +696,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		270C3E8F1D9777BF003CF197 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E1FA3469DB8BE67C35FC01F /* Pods-xkcdToday.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = F252L9GUBW;
-				INFOPLIST_FILE = xkcdToday/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ranvel.opensource.xkcd-adopted.xkcdToday";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		270C3E901D9777BF003CF197 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79DD09DB279FA5413379F8A0 /* Pods-xkcdToday.release.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = F252L9GUBW;
-				INFOPLIST_FILE = xkcdToday/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ranvel.opensource.xkcd-adopted.xkcdToday";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		2714CCCD1B05667400ADF009 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1033,15 +887,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		270C3E911D9777BF003CF197 /* Build configuration list for PBXNativeTarget "xkcdToday" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				270C3E8F1D9777BF003CF197 /* Debug */,
-				270C3E901D9777BF003CF197 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2714CCAD1B05667400ADF009 /* Build configuration list for PBXProject "xkcd Open Source" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

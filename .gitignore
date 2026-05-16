@@ -9,16 +9,15 @@ xcuserdata/
 *.xccheckout
 *.DS_Store
 
-#Pods
-Podfile.lock
-Pods/*
+# CocoaPods
+# (Uncomment the next line if you don't want to commit Pods/ —
+#  but for a sunsetting package manager, committing them is insurance
+# Podfile.lock
+# Pods/*
 build/
 *.gcno
 
-# CocoaPods
-# (Uncomment the next line if you don't want to commit Pods/ —
-#  but for a sunsetting package manager, committing them is insurance)
-# Pods/
+
 
 # Bundler (gem isolation from our Gemfile setup)
 .bundle/

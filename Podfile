@@ -1,3 +1,5 @@
+platform :ios, '18.0'
+
 def myPods
  pod "Realm"
  pod "AFNetworking", "~> 2.0"

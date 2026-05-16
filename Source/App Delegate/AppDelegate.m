@@ -9,8 +9,6 @@
 #import "AppDelegate.h"
 #import "ComicListViewController.h"
 #import "ThemeManager.h"
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
 #import "XKCDDeviceManager.h"
 
 @import StoreKit;
@@ -73,7 +71,6 @@ static NSTimeInterval const kFourMonthsInSeconds = 10368000;
 
 - (void)setupThirdPartyLibraries {
     [ThemeManager setupTheme];
-    [Fabric with:@[CrashlyticsKit]];
 }
 
 

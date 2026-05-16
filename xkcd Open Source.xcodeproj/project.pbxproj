@@ -15,8 +15,6 @@
 		2714CCB81B05667400ADF009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2714CCB71B05667400ADF009 /* main.m */; };
 		2714CCBB1B05667400ADF009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2714CCBA1B05667400ADF009 /* AppDelegate.m */; };
 		2714CCBD1B05667400ADF009 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2714CCBC1B05667400ADF009 /* Images.xcassets */; };
-		2715C2EE1B090AFD00F50645 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2715C2EC1B090AFD00F50645 /* Fabric.framework */; };
-		2715C2EF1B090AFD00F50645 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2715C2ED1B090AFD00F50645 /* Crashlytics.framework */; };
 		27469F831E6A76CD009466F4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27469F851E6A76CD009466F4 /* Localizable.strings */; };
 		277316F11B0567B300ED7978 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 277316F01B0567B300ED7978 /* RequestManager.m */; };
 		277316F71B056A6000ED7978 /* Comic.m in Sources */ = {isa = PBXBuildFile; fileRef = 277316F61B056A6000ED7978 /* Comic.m */; };
@@ -96,8 +94,6 @@
 		2714CCB91B05667400ADF009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2714CCBA1B05667400ADF009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2714CCBC1B05667400ADF009 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2715C2EC1B090AFD00F50645 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		2715C2ED1B090AFD00F50645 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		27469F841E6A76CD009466F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		27469F861E6A76D7009466F4 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		27469F871E6A76DC009466F4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -163,8 +159,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2715C2EF1B090AFD00F50645 /* Crashlytics.framework in Frameworks */,
-				2715C2EE1B090AFD00F50645 /* Fabric.framework in Frameworks */,
 				A6964EB278DE5FAD53FAE64E /* libPods-xkcd Open Source.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,8 +470,6 @@
 		6149381D401141D78EB3E374 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2715C2EC1B090AFD00F50645 /* Fabric.framework */,
-				2715C2ED1B090AFD00F50645 /* Crashlytics.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -543,7 +535,6 @@
 				2714CCAE1B05667400ADF009 /* Sources */,
 				2714CCAF1B05667400ADF009 /* Frameworks */,
 				2714CCB01B05667400ADF009 /* Resources */,
-				2740A8E91B08F5A400B805ED /* ShellScript */,
 				270C3E921D9777BF003CF197 /* Embed App Extensions */,
 				8EC4573C6BD0E0C9EBEF0459 /* [CP] Embed Pods Frameworks */,
 				8F7387FAFA9CF679B1B84CFE /* [CP] Copy Pods Resources */,
@@ -688,19 +679,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xkcdOSTests/Pods-xkcdOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		2740A8E91B08F5A400B805ED /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 9d10bcab441496c8fa4ef9f5640506e93f062bd7 27018a6e0ce93a4c9734e6147a380d52aa0b42ba18618ba3beeb5df2545c8411";
 		};
 		562DF100780BB5E7D600CE78 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
